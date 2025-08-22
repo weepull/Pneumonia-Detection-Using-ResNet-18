@@ -60,16 +60,13 @@ This project applies **Deep Learning** to assist in Pneumonia detection using **
 ```
 Pneumonia-Detection-CNN-ResNet/
 │── README.md
-│── requirements.txt
 │── Pneumonia_CNN.ipynb
 │── Pneumonia_ResNet.ipynb
-│── results/
-│   ├── training_curve.png
-│   ├── gradcam_normal.png
-│   ├── gradcam_pneumonia.png
-│── models/ (optional)
-│   ├── resnet18_best.pth
-│── utils.py (optional)
+│── Grad-CAM Results/
+│   ├── Comparison.png
+│   ├── Normal Predicted.png
+│   ├── Pneumonia Predicted.png
+
 ```
 
 ---
@@ -80,9 +77,6 @@ Pneumonia-Detection-CNN-ResNet/
 # Clone the repo
 git clone https://github.com/your-username/Pneumonia-Detection-CNN-ResNet.git
 cd Pneumonia-Detection-CNN-ResNet
-
-# Install dependencies
-pip install -r requirements.txt
 
 # Run the notebook
 jupyter notebook Pneumonia_ResNet.ipynb
@@ -106,9 +100,9 @@ Dataset used: **Chest X-ray Dataset (Pneumonia vs Normal)**
 ---
 
 ## 📌 Future Work  
-- Extend to **multiclass classification** (e.g., Tuberculosis, COVID-19).  
-- Explore **Vision Transformers (ViTs)** for further improvement.  
-- Deploy as a **web app** for clinical usability.  
+- Extend to **Multimodal X-Ray Report Generation** .  
+- Explore **Vision Transformers and Text Transformers** for further improvement.  
+- Deploy as a **web app** for clinical copilot.  
 
 ---
 
