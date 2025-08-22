@@ -48,8 +48,9 @@ This project applies **Deep Learning** to assist in Pneumonia detection using **
 ## 🖼️ Sample Grad-CAM Visualizations  
 
 <p align="center">
-  <img src="results/gradcam_normal.png" width="45%" />
-  <img src="results/gradcam_pneumonia.png" width="45%" />
+  <img src="Grad-CAM Results/Normal Predicted.png" width="45%" />
+  <img src="Grad-CAM Results/Normal Predicted.png" width="45%" />
+  <img src="Grad-CAM Results/Comparision.png" width="45%" />
 </p>  
 
 ---
